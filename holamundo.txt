@@ -1,0 +1,26 @@
+dir
+../..
+cd../..
+cd Documents
+cd IFCD0110/Documents
+cd IFCD0110
+dir
+cd Users
+cd IFCD0110
+DIR
+cd Documents
+md Prova
+dir
+../
+cd..
+cd Documents
+dir
+move hola.txt Prova
+cd Prova
+dir
+rename hola.txt holamundo.txt
+move holamundo.txt ../
+cd..
+del Prova
+s
+doskey /history
